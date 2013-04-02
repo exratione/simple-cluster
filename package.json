@@ -1,0 +1,27 @@
+{
+  "name" : "simple-cluster",
+  "description": "Very simple Redis-based pub/sub communication between processes, with Express middleware.",
+  "keywords": ["cluster", "communication", "redis", "express", "middleware"],
+  "version": "0.0.1",
+  "homepage": "https://github.com/exratione/simple-cluster",
+  "author": "Reason <reason@exratione.com>",
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "dependencies": {
+    "node-uuid": "*",
+    "redis": "*"
+  },
+  "devDependencies": {
+    "express": "*"
+  },
+  "main": "./index",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/exratione/simple-cluster"
+  },
+  "licenses" : [{
+    "type" : "MIT",
+    "url" : "https://github.com/exratione/simple-cluster/raw/master/LICENSE"
+  }]
+}
