@@ -5,6 +5,10 @@ This package provides an exceedingly simple Redis-backed method of passing
 data between processes running in a cluster, with an Express middleware wrapper
 to make it easy to add to Express applications.
 
+Install via NPM:
+
+    npm install simple-cluster
+
 Set it up as follows:
 
     var http = require("http");
